@@ -1,0 +1,26 @@
+// variables.scss
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+// Colors
+$primary-color: #fb7413;
+$secondary-color: #262e38;
+$light-grey: #959eac;
+$medium-grey: #7c8798;
+$white: #f3f3f3;
+
+// bg colors
+$primary-bg-color: #121417;
+$secondary-bg-color: #252d37;
+
+// Font sizes
+$small-font-size: 12px;
+$base-font-size: 15px;
+$large-font-size: 24px;
+
+// Font family
+$primary-font-family: 'Overpass', sans-serif;
+
+// Breakpoints
+$mobile-breakpoint: 480px;
+$mobile-width: 768px;
+$tablet-width: 1024px;
+$desktop-width: 1280px;
