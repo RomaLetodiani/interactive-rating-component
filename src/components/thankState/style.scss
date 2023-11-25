@@ -1,11 +1,19 @@
 .thank-state {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   img {
     margin: 30px 10px;
   }
   h5 {
     color: $primary-color;
+    padding: 10px;
+    background-color: $tertiary-bg-color;
+    border-radius: 100px;
+    font-size: $base-font-size;
   }
   h3 {
     color: $white;

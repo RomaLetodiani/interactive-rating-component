@@ -1,6 +1,9 @@
 .rate-state {
   img {
-    margin: 30px 10px;
+    margin-bottom: 25px;
+    background-color: $tertiary-bg-color;
+    border-radius: 100px;
+    padding: 15px;
   }
   .rate-state__title {
     font-size: $large-font-size;

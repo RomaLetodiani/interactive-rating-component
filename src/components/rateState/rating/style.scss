@@ -1,6 +1,6 @@
 .rate-state__rating {
   display: flex;
-  margin: 20px 0;
+  margin: 30px 0;
   gap: 10px;
   justify-content: space-between;
   button {
@@ -13,7 +13,7 @@
     height: 40px;
     text-align: center;
     transition: all 0.3s ease;
-    background: $secondary-color;
+    background: $tertiary-bg-color;
     &:hover {
       background: $medium-grey;
       color: $white;
