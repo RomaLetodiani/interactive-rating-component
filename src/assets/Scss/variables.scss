@@ -1,32 +1,26 @@
 // variables.scss
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 // Colors
-$selected-color: #1d1e35;
-$primary-color: #4a4b5e;
-$secondary-color: #787887;
-$accent-color: #f47c57;
-$divider-color: #e7e7e9;
+$primary-color: #fb7413;
+$secondary-color: #262e38;
+$light-grey: #959eac;
+$medium-grey: #7c8798;
+$white: #f3f3f3;
 
-//background
-$gradient-primary: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+// bg colors
+$primary-bg-color: #121417;
+$secondary-bg-color: #252d37;
 
 // Font sizes
 $small-font-size: 12px;
-$base-font-size: 16px;
-$large-font-size: 20px;
+$base-font-size: 15px;
+$large-font-size: 24px;
 
 // Font family
-$primary-font-family: 'Kumbh Sans', sans-serif;
+$primary-font-family: 'Overpass', sans-serif;
 
 // Breakpoints
 $mobile-breakpoint: 480px;
 $mobile-width: 768px;
 $tablet-width: 1024px;
 $desktop-width: 1280px;
-
-// responsive
-@mixin mobile {
-  @media (max-width: $mobile-width) {
-    @content;
-  }
-}

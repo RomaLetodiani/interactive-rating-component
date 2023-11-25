@@ -1,0 +1,17 @@
+.rate-state {
+  img {
+    margin: 30px 10px;
+  }
+  .rate-state__title {
+    font-size: $large-font-size;
+    color: $white;
+    font-weight: bold;
+  }
+  .rate-state__description {
+    font-size: $base-font-size;
+    color: $medium-grey;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 10px 0 20px;
+  }
+}
